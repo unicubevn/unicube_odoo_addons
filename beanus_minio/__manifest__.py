@@ -67,6 +67,7 @@
     "external_dependencies": {
         "python": [
             "minio",
+            "redis"
         ],
     },
 }
