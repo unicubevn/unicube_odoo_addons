@@ -11,15 +11,15 @@
     """,
 
     'author': "The Bean Family",
+    'maintainer': "The Bean Family",
     'license': "LGPL-3",
-    'website': "https://thebeanfamily.org",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
     'category': 'Bean Family Modules/Utilities',
-    'version': '1.0.0',
-
+    'version': '16.0.0.1',
+    'website': "https://www.thebeanfamily.org",
+    'support': 'community@thebeanfamily.org',
+    "application": True,
+    "installable": True,
+    'images': ['static/description/image.png'],
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
