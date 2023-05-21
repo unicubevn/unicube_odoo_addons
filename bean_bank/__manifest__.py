@@ -21,6 +21,8 @@
     "application": True,
     "installable": True,
 
+    "images": ["static/description/image.png"],
+
     # any module necessary for this one to work correctly
     'depends': ['base'],
 

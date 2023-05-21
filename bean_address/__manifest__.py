@@ -18,7 +18,7 @@
 
     "application": True,
     "installable": True,
-    "images": ["static/description/vietnamese-addresses.jpeg"],
+    "images": ["static/description/vietnamese-addresses.png"],
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
