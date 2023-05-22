@@ -201,21 +201,14 @@
             <field name="code">VN-08</field>
         </record>
 <!--Special Case-->
+
         <record id="base.state_vn_VN-66" model="res.country.state">
-            <field name="code">abc</field>
+            <field name="code">VN--33</field>
         </record>
-        <record id="base.state_vn_VN-33" model="res.country.state">
-            <field name="code">def</field>
-        </record>
+
         <record id="base.state_vn_VN-33" model="res.country.state">
             <field name="code">VN-66</field>
         </record>
-        <record id="base.state_vn_VN-66" model="res.country.state">
-            <field name="code">VN-33</field>
-        </record>
-
-
-
 
     </data>
 </odoo>
