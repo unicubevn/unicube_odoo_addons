@@ -495,9 +495,26 @@
             If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
             <a class="reference external"
                href="https://github.com/beanfamily/beanfamily_odoo_addons/issues/new">here</a>.</p>
+        <h3>Change logs</h3>
+        <ul>
+            <li>
+                <p>Version:16.0.0.2</p>
+                <p>Add checking whether the Python Redis is installed or not. If Python Redis is installed, you can use
+                    redis cache for APIs in Controller Class.</p>
+                <p>To Use Redis, please add following config to your Odoo config file:</p>
+                <pre class="code">
+                    <ul>
+                    <p>enable_redis = True</br>redis_host = localhost # Redis host<br/>redis_port = 6379      # Redis port<br/>redis_dbindex = 2      # Redis database index</br>redis_pass =           # Redis password (default: None)</br>redis_expired_time = 604800 # in second</p>
+                </ul>
+                </pre>
+            </li>
+            <li>
+                <p>Version:16.0.0.1</p>
+                <p>first release</p>
+            </li>
+        </ul>
     </div>
     <div class="section" id="credits">
-        <h1>Credits</h1>
         <div class="section" id="contributors">
             <h2>Contributors</h2>
             <ul class="simple">

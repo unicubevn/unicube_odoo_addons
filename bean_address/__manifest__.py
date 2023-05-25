@@ -14,7 +14,7 @@
     "license": "LGPL-3",
     'website': "https://www.thebeanfamily.org",
     'category': 'Bean Family Modules/Utilities',
-    'version': '16.0.0.1',
+    'version': '16.0.0.2',
 
     "application": True,
     "installable": True,
