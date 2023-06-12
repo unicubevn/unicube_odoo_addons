@@ -7,7 +7,7 @@
   -->
 
 <!--This data will correct the state ID of Vietnam to follow the Vietnamese Government circular
-    ~ Please don't change the order of below record or you will have error
+    ~ Please don't change the order of below record, or you will have error
 -->
 <odoo>
     <data noupdate="0">
@@ -200,15 +200,12 @@
         <record id="base.state_vn_VN-07" model="res.country.state">
             <field name="code">VN-08</field>
         </record>
-<!--Special Case-->
-
+        <!--Special Case: Due to constrain between country code, the following only change record name-->
         <record id="base.state_vn_VN-66" model="res.country.state">
-            <field name="code">VN--33</field>
+            <field name="name">Đắk Lắk</field>
         </record>
-
         <record id="base.state_vn_VN-33" model="res.country.state">
-            <field name="code">VN-66</field>
+            <field name="name">Hưng Yên</field>
         </record>
-
     </data>
 </odoo>
