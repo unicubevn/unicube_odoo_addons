@@ -44,10 +44,13 @@ class ResPartnerBank(models.Model):
                 ))
             else:
                 acc.acc_object = False
-            print(f"acc.proxy_type {acc.proxy_type}")
-            if not acc.proxy_type:
-                acc.proxy_type = "bank_acc" if (not acc.acc_number or "9704" not in acc.acc_number) else "atm_card"
-                acc.proxy_value = acc.acc_number
+            print(f"acc.proxy_type {acc.proxy_type} - ")
+
+            print(f"acc.proxy_value: {acc.proxy_value} - {acc.acc_number}")
+            acc.proxy_value = acc.acc_number
+            print(f"acc.proxy_value: {acc.proxy_value}")
+            acc.proxy_type = "bank_acc" if (not acc.acc_number or "9704" not in acc.acc_number) else "atm_card"
+
 
                     # @api.depends('partner_id')
     # def _add_partner_name(self):
@@ -67,9 +70,6 @@ class ResPartnerBank(models.Model):
             return 'bank' if (not acc_number or "9704" not in acc_number) else 'atm_card'
         except Exception as e :
             return super(ResPartnerBank, self).retrieve_acc_type(acc_number)
-
-
-
 
 
     """_This section is Override the original '_get_supported_account_types' function_
