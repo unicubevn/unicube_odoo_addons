@@ -22,7 +22,7 @@
     "application": True,
     "installable": True,
 
-    "images": ["static/description/image.png"],
+    "images": ["static/description/image.jpeg"],
 
     # any module necessary for this one to work correctly
     'depends': ['base','l10n_vn','account_qr_code_emv'],
