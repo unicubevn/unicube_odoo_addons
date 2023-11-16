@@ -13,7 +13,7 @@
         -   Add VietQR for invoice view form.
     """,
 
-    'author': "The Bean Family (an UniCube member)",
+    'author': "UniCube",
     "license": "LGPL-3",
     'category': 'UniCube/Payment',
     'version': '17.0.0.1',

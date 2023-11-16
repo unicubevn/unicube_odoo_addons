@@ -10,7 +10,7 @@
         This is the Vietnamese address module based on Circular No 124/2004/QĐ-TTg issued by Viet Nam Government (for backend sites only)
     """,
 
-    'author': "The Bean Family (an UniCube member)",
+    'author': "UniCube",
     "license": "LGPL-3",
     'website': "https://unicube.vn",
     'category': 'UniCube/Utilities',
